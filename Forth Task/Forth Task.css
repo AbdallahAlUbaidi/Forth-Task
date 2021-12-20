@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#img
+{
+    padding: 20px 0;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+}
+
+.card
+{
+    
+    border-radius: 15px;
+    height: 450px;
+    width: 350px;
+    padding: 40px 30px;
+    margin: 20px;
+    
+}
+
+#firstCard
+{
+    background-color: #f5830e;
+}
+
+#secondCard
+{
+    background-color: #006b71;
+}
+
+#thirdCard
+{
+    background-color: #004342;
+
+}
+
+
+.card_title h1
+{
+    color: white;
+    font-weight: 500; 
+    font-size: 25px;
+    width: 70%;
+}
+
+.card_text 
+{
+    color:#fff;
+    width: 70%;
+    font-size: 15px;
+    opacity: 0.55;
+    padding: 10px;
+}
+
+
+.card_btn
+{
+    background: #fff;
+    height: 40px;
+    border-radius: 25px;
+    width: fit-content;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 35px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_btn .button
+{
+    text-decoration: none;
+
+    font-size: 1rem;
+    padding: 20px;
+    width: 100%;
+}
+
+#button1
+{
+    color: #f5830e;
+}
+
+#button2
+{
+    color: #006b71;
+}
+
+#button3
+{
+    color: #004342;
+}
+
+
+#button1:hover
+{
+    color: #fff;
+}
+
+#button2:hover
+{
+    color: #fff;
+}
+
+#button3:hover
+{
+    color: #fff;
+}
+
+
+
+
+.card_btn .button:hover
+{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+.card_btn:hover
+{
+    transition: all 0.3s ease-in-out;
+    
+    border: 2px solid #fff;
+
+}
+
+#firstButton:hover
+{
+    background: #f5830e;
+}
+#secondButton:hover
+{
+    background: #006b71;
+}
+
+#thirdButton:hover
+{
+    background: #004342;
+}
+
+@media  screen and (max-width:980px) 
+{
+    .container
+    {
+        display: block;
+    }
+    .card
+    {
+        
+        position: relative;
+        margin: 30px auto;
+        height: fit-content;
+        opacity: 0.9;
+    }
+
+
+}
+
+
+
